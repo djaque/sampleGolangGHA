@@ -18,7 +18,7 @@ func TestHandler(t *testing.T) {
 	hf.ServeHTTP(recorder, req)
 	assert.Equal(t, http.StatusOK, recorder.Code)
 
-	expected := `Hello World!`
+	expected := `Hello Mundo!`
 	actual := recorder.Body.String()
 	assert.Equal(t, expected, actual, "Unexpected body: actual: %v expected: %v", actual, expected)
 }
