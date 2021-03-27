@@ -4,8 +4,9 @@
 
 This is an example on golang to test the github actions
 
-The app is very easy, contains a single handler listening for a single route
-Add a single test to check the process.
+The app is very easy, contains a single handler listening for a single route.
+
+Also add a single test to check the process.
 
 Then add the workflow steps:
 
